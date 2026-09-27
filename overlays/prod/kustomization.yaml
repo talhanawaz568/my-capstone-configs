@@ -1,0 +1,9 @@
+resources:
+  - ../../base
+namePrefix: prod-
+replicas:
+  - name: capstone-app
+    count: 3
+images:
+  - name: talha884/my-capstone-app
+    newTag: latest

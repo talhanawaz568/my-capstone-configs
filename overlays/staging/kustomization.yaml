@@ -1,0 +1,9 @@
+resources:
+  - ../../base
+namePrefix: staging-
+replicas:
+  - name: capstone-app
+    count: 2
+images:
+  - name: talha884/my-capstone-app
+    newTag: latest
