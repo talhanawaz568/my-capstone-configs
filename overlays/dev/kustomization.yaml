@@ -6,4 +6,4 @@ replicas:
     count: 1
 images:
   - name: talha884/my-capstone-app
-    newTag: latest
+    newTag: 1b3d43e
