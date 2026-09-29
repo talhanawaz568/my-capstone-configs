@@ -7,3 +7,11 @@ replicas:
 images:
   - name: talha884/my-capstone-app
     newTag: ec3c0f1
+patches:
+  - target:
+      kind: Deployment
+      name: capstone-app
+    patch: |-
+      - op: replace
+        path: /spec/template/spec/containers/0/env/1/value
+        value: prod
