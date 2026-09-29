@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/YOUR_USERNAME/my-capstone-configs.git
+    repoURL: https://github.com/talhanawaz568/my-capstone-configs.git
     targetRevision: main
     path: overlays/prod
   destination:
