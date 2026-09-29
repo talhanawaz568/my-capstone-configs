@@ -6,7 +6,7 @@ replicas:
     count: 1
 images:
   - name: talha884/my-capstone-app
-    newTag: ec3c0f1
+    newTag: 6caca35
 patches:
   - target:
       kind: Deployment
