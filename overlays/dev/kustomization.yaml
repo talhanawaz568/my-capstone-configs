@@ -6,6 +6,6 @@ replicas:
     count: 1
 images:
   - name: talha884/my-capstone-app
-    newTag: d0a73da
+    newTag: 8ab8909
 patches:
   - path: env-patch.yaml
