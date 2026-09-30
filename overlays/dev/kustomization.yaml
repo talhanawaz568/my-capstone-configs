@@ -8,10 +8,4 @@ images:
   - name: talha884/my-capstone-app
     newTag: d0a73da
 patches:
-  - target:
-      kind: Deployment
-      name: capstone-app
-    patch: |-
-      - op: replace
-        path: /spec/template/spec/containers/0/env/1/value
-        value: dev
+  - path: env-patch.yaml
